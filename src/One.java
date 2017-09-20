@@ -3,9 +3,14 @@ public class One {
 
   public String foo() {
     return message;
+    return message;
   }
 
-  void uncoveredMethod() {
+  public void uncoveredMethod() {
+    System.out.println(foo());
+  }
+  
+  public void uncoveredMethod() {
     System.out.println(foo());
   }
 }
