@@ -5,7 +5,7 @@ public class One {
     return message;
   }
 
-  public void uncoveredMethod() {
+  void uncoveredMethod() {
     System.out.println(foo());
   }
 }
